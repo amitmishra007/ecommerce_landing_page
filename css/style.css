@@ -1,0 +1,568 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* utility class */
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+/* utility class */
+
+/* navbar */
+
+.navbar{
+    width: 100%;
+}
+.navbar .logo img{
+    width: 50px;
+    height: 30px;
+    margin: 1rem;
+}
+.navbar .logo{
+    float: left;
+}
+.logo .menu-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu-items{
+    max-width: 500px;
+}
+ .menu-items li{
+    padding: 1rem;
+    list-style-type: none;
+
+}
+.menu-items li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 700;
+}
+.navbar .e-items {
+    float: right;
+    margin-top: 1rem;
+}
+.e-items i{
+    padding: 0 1rem;
+    font-size: 1.5em;
+}
+.navbar::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header{
+    height: 80vh;
+    width: 100%;
+    background: url(../img/header.jpg)no-repeat center center/cover;
+}
+/* navbar */
+/* company name */
+
+.comp-name .row ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.comp-name .row ul li{
+    list-style-type: none;
+}
+.comp-name .row ul li img{
+    width: 100%;
+}
+/* newest */
+.newest .row{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.newest .row h1{
+    font-size: 2.5rem;
+}
+.newest .row span{
+    font-size: 0.5rem;
+}
+.newest .row img{
+    width: 100%;
+    padding: 0.5rem;
+}
+.overlay2{
+    position: relative;
+}
+.disc-btn{
+    position: absolute;
+    left: 1.5rem;
+    bottom: 6rem;
+}
+.btn1{
+    padding: 0.5em;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+/* for man & woman */
+.discover{
+    width: 100%;
+    margin-top: 5rem;
+}
+.discover .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.discover .row .man-img{
+    width: 50%;
+}
+.discover .row .man-img img{
+   width: 100%;
+}
+.discover .row .woman-img{
+    width: 50%;
+}
+ .woman-img img{
+    width: 100%;
+ }
+.discover .row .overlay{
+    position: relative;
+}
+.discover .row .content{
+    position: absolute;
+    left: 10rem;
+    bottom: 8rem;
+}
+.discover .row h3{
+    font-size: 1.5rem;
+}
+.discover .row .btn{
+    border: none;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+/* arrivals */
+.arrivals{
+    margin-top: 5rem;
+}
+.arrivals .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.arrivals h2{
+    font-size: 2.5rem;
+}
+.arrivals .row span{
+    font-size: 0.5rem;
+}
+.arrivals .row img{
+    width: 100%;
+    padding: 0.5rem;
+}
+/* new-section */
+.new .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.new .row img{
+    width: 100%;
+}
+
+/* best sellers */
+.sellers{
+    margin-top: 5rem;
+}
+.sellers .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.sellers h2{
+    font-size: 2.5rem;
+}
+.sellers .row span{
+    font-size: 0.5rem;
+}
+.sellers .row img{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+/* reviews */
+.reviews{
+    width: 100%;
+    height: 20rem;
+    background: url('../img/nature.jpg'), rgba(138, 131, 131, 0.2);
+
+}
+
+.reviews .row{
+    min-width: 80%;
+    text-align: center;
+}
+.reviews .row h2{
+    padding: 1.5em;
+    color: white;
+    font-weight: 700;
+
+}
+.reviews .row .star i{
+   color: yellow;
+}
+
+.reviews .row p{
+    padding: 1em;
+    color: white;
+}
+
+.reviews .row h4{
+    color: white;
+}
+
+/* latest news */
+.latest{
+    margin-top: 5rem;
+}
+.latest .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.latest .row h1{
+    font-size: 2.5rem;
+}
+.latest .row span{
+    font-size: 1rem;
+}
+.latest .row img{
+    width: 100%;
+    padding: 0.5rem;
+}
+.latest .row .overlay3{
+    position: relative;
+}
+.latest .row .read-btn{
+    position: absolute;
+    left: 1.5rem;
+    bottom: 6rem;
+}
+
+/* contact- section */
+.contact{
+    margin-top: 5rem;
+    width: 100%;
+    background-color: rgba(153, 143, 143, 0.884);
+    height: auto;
+}
+.contact .row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.contact .row .text h3, p{
+    color: black;
+}
+
+.contact .row .display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+.contact .row .display i{
+    font-size: 2rem;
+    margin-right: 1em;
+    margin-top: 0.5em;
+}
+.contact .row .display .right{
+    border-right: 0.2rem solid grey;
+    margin-right: 1.2em;
+}
+
+/* footer */
+.footer{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+.footer .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+    height: auto;
+}
+.footer .row h3{
+    color: white;
+}
+.footer .row p{
+    color: white;
+}
+
+.footer .row .support ul{
+    list-style-type: none;
+}
+.footer .row .support ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 2em 0;
+}
+.footer .row .join {
+    text-align: center;
+    margin: 0 5rem;
+}
+.footer .row .join ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer .row .join p{
+    padding: 1.5rem;
+}
+.footer .row .join ul li a{
+    text-decoration: none;
+    padding: 0.5rem;
+    color: white;
+}
+.footer .row .join .form input[type ="text"]{
+    color: white;
+    border: 2px solid white;
+    margin-bottom: 1rem;
+}
+.footer .row .join .form .btn-new{
+    color: black;
+    background-color: white;
+} 
+.footer .row .about ul{
+    list-style-type: none;
+
+}
+.footer .row .about{
+    text-align: center;
+}
+.footer .row .about ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 1.5em 0;
+}
+
+
+
+
+/* media querries */
+@media (max-width: 500px){
+    html{
+        font-size: 50%;
+    }
+    .header{
+        width: 100%;
+        max-width: 100%;
+        height: 25rem;
+        margin: 0 auto;
+
+    }
+    .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar .e-items {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .menu-items li{
+        padding: 0.5rem;
+    
+    }
+    .menu-items li a{
+        font-size: 1.2rem;
+    }
+
+    /* company-name */
+    .comp-name .row ul li{
+        text-align: center;
+    }
+    .comp-name .row ul li img{
+        width: 6rem;
+        height: auto;
+    }
+    /* newest */
+    .newest .row{
+        max-width: 80%;
+        height: auto;
+        display: block;
+        text-align: center;
+        padding: 0.2rem;
+        margin: 0 auto;
+    }
+    .newest .row h1{
+        font-size: 1.5rem;
+    }
+    .newest .row span{
+        font-size: 0.8rem;
+    }
+    .overlay2{
+        position: relative;
+    }
+    .disc-btn{
+        position: absolute;
+        left: 4.5rem;
+        bottom: 6rem;
+    }
+    /* discover */
+    .discover .row{
+        display: block;
+        max-width: 80%;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .discover .row .man-img{
+        width: 100%;
+    }
+    .discover .row .woman-img{
+        width: 100%;
+    }
+    /* arrivals */
+    .arrivals .row{
+        display: block;
+        max-width: 80%;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .arrivals h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    /* new-section */
+    .new{
+        margin-top: 5rem;
+    }
+    .new .row{
+        display: block;
+        text-align: center;
+        height: auto;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+
+    /* sellers */
+    .sellers .row{
+        display: block;
+        max-width: 80%;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .sellers h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    /* product - Reviews*/
+    
+    .reviews .row{
+        width: 100%;
+        text-align: center;
+    }
+     
+     .reviews .row p{
+         padding: 0.5em;
+         color: white;
+     }
+     .reviews .row h2{
+        padding: 1em;
+        color: white;
+        font-weight: 700;
+    
+    }
+
+    /* latest news */
+    .latest .row{
+        display: block;
+       max-width: 80%;
+       height: auto;
+       text-align: center;
+       margin: 0 auto;
+    }
+    .latest .row h1{
+        font-size: 1.5rem;
+    }
+    .latest .row span{
+        font-size: 0.8rem;
+    }
+    .latest .row .overlay3{
+        position: relative;
+    }
+    .latest .row .read-btn{
+        position: absolute;
+        left: 4.5rem;
+        bottom: 6rem;
+    }
+
+    /* contact -section */
+    .contact .row{
+        display: block;
+        max-width: 80%;
+        margin: 0 auto;
+        height: auto;
+        text-align: center;
+        
+    }
+    .contact .row .display .right{
+        border-right: 0.2rem solid grey;
+        margin-right: 0.5em;
+    }
+
+    /* footer */
+    .footer .row{
+        display: block;
+        max-width: 80%;
+        margin: 0 auto;
+        height: auto;
+        text-align: center;
+
+        
+    }
+    .footer .row .support ul li a{
+        padding: 5em 0;
+        font-size: 1rem;
+    }
+    .footer .row .join{
+        margin: 2rem 0;
+    }
+}
